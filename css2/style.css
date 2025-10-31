@@ -1,0 +1,188 @@
+/* Tema Moderno — CineGilberlan */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #e0f7fa, #ede7f6);
+    color: #222;
+    line-height: 1.6;
+}
+
+/* Cabeçalho */
+header {
+    background-image: url('https://source.unsplash.com/1920x600/?movie,lights');
+    background-position: center;
+    background-size: cover;
+    padding: 3em;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.6);
+}
+
+header h1 {
+    font-size: 3em;
+    color: #ff6f00;
+}
+
+header h2 {
+    font-style: italic;
+    font-size: 1.4em;
+}
+
+/* Menu */
+nav {
+    background-color: #4a148c;
+    padding: 1em;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+nav li {
+    margin: 0 1.5em;
+}
+
+nav a {
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #ffea00;
+}
+
+/* Destaque */
+#destaque {
+    padding: 2em;
+    text-align: center;
+}
+
+.card-destaque {
+    background-color: #ede7f6;
+    border: 2px solid #7e57c2;
+    border-radius: 12px;
+    padding: 1.5em;
+    margin: 1.5em auto;
+    max-width: 600px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.card-destaque img {
+    width: 220px;
+    border-radius: 10px;
+    margin-bottom: 1em;
+}
+
+/* Catálogo */
+#catalogo {
+    padding: 2em;
+}
+
+.grade-filmes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5em;
+}
+
+.card-filme {
+    background-color: #fff;
+    border: 2px solid #ba68c8;
+    border-radius: 10px;
+    padding: 1em;
+    width: 250px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.card-filme:hover {
+    transform: scale(1.05);
+}
+
+.card-filme img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.card-filme a {
+    color: #6a1b9a;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.card-filme a:hover {
+    text-decoration: underline;
+}
+
+/* Tabela */
+#tabela {
+    padding: 2em;
+}
+
+table {
+    width: 90%;
+    margin: auto;
+    border-collapse: collapse;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+th, td {
+    padding: 0.75em;
+    text-align: center;
+    border: 1px solid #ce93d8;
+}
+
+th {
+    background-color: #ab47bc;
+    color: white;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f3e5f5;
+}
+
+/* Gêneros */
+#generos {
+    padding: 2em;
+}
+
+#generos ul {
+    list-style-type: circle;
+    padding-left: 2em;
+}
+
+/* Sobre */
+#sobre {
+    padding: 2em;
+}
+
+#sobre img {
+    border-radius: 8px;
+    margin-bottom: 1em;
+}
+
+.social-link {
+    display: inline-block;
+    margin: 0.5em;
+    padding: 0.6em 1em;
+    background-color: #7b1fa2;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.social-link:hover {
+    background-color: #4a148c;
+}
